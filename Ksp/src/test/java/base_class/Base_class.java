@@ -19,7 +19,7 @@ public class Base_class {
     public void open() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("http://172.10.1.159:9052/Application/JobPosting");
+        driver.get("https://services.billdesk.com/console/login.jsp");
         new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
